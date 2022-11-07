@@ -1,9 +1,12 @@
 docker compose up -d
 
-
 docker-compose run web django-admin startproject 'app' .
 
 python manage.py runserver
+
+## todo サンプル
+
+https://tech-diary.net/django-todo-tutorial/
 
 ### python
 
